@@ -1,0 +1,62 @@
+/*Body*/
+body {
+    background-color: #FFFFFF;
+}
+
+/*Buttons (GIF bestandjes in de HTML) */
+.buttonRock,
+.buttonSing,
+.buttonSmash {
+    border-radius: 60px;
+    margin: 40px;
+    opacity: 0.6;
+    width: 6em;
+}
+
+
+
+/*Hover van de buttons*/
+.buttonRock:hover,
+.buttonSing:hover,
+.buttonSmash:hover {
+    border: 2px;
+    border-color: #FFFFFF;
+    border-radius: 60px;
+    border-style: solid;
+    opacity: 2;
+}
+
+
+section div {
+    /*position: flex;*/
+    cursor: pointer;
+    display: block;
+    flex-direction: row;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    text-align: center;
+    top: 95.7%;
+    transform: translate(-50%, -50%);
+    /*    -ms-transform: translate(-50%, -50%);*/
+}
+
+
+
+/*De idle state*/
+.idlestate {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+footer p {
+    /*    color: #FFFFFF;*/
+    color: #000000;
+    font-family: 'New Rocker', cursive;
+    font-size: 10px;
+    text-align: center;
+
+}
